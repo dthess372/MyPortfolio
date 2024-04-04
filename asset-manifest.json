@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.c7888f3d.css",
+    "main.js": "/My_Portfolio/static/js/main.beba9163.js",
+    "static/media/DavidHess_Resume.pdf": "/My_Portfolio/static/media/DavidHess_Resume.b5654df64269d2811b33.pdf",
+    "static/media/coolvetica.otf": "/My_Portfolio/static/media/coolvetica.3d81d0e1fdbd5f69b232.otf",
+    "static/media/AldotheApache.ttf": "/My_Portfolio/static/media/AldotheApache.96b6ca13f61531070eab.ttf",
+    "index.html": "/My_Portfolio/index.html",
+    "main.c7888f3d.css.map": "/My_Portfolio/static/css/main.c7888f3d.css.map",
+    "main.beba9163.js.map": "/My_Portfolio/static/js/main.beba9163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7888f3d.css",
+    "static/js/main.beba9163.js"
+  ]
+}
