@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'AldoTheApache';
+  src: url('./public/fonts/AldotheApache.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./public/fonts/coolvetica.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'AldoTheApache', 'Coolvetica' sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; 
+  background-color: rgb(23, 23, 23);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkred; 
+  border-radius: 2.5px;
+}
+
+/* For Firefox */
+/* Note: Firefox supports scrollbar-color property but does not support border-radius for scrollbar thumb */
+/* You can use this to set the color of the scrollbar thumb in Firefox */
+/* Uncomment the following lines if you want to customize the scrollbar in Firefox */
+/*
+html {
+  scrollbar-color: #888 transparent; 
+}
+*/
+
+/* For Internet Explorer and Edge */
+/* Note: Internet Explorer and Edge have limited support for styling scrollbars */
+/* You may need to use -ms prefixes for older versions of Edge */
+/* This example applies to Edge and newer versions of Internet Explorer */
+/* Uncomment the following lines if you want to customize the scrollbar in Internet Explorer and Edge */
+/*
+body {
+  scrollbar-face-color: #888; 
+  scrollbar-track-color: transparent;
+}
+*/
+
+/* To hide the scrollbar track */
+/* Uncomment the following line if you want to hide the scrollbar track */
+/*
+::-webkit-scrollbar-track {
+  background-color: transparent; 
+}
+*/
+
+/* To hide the scrollbar corner */
+/* Uncomment the following line if you want to hide the scrollbar corner */
+/*
+::-webkit-scrollbar-corner {
+  display: none; 
+}
+*/

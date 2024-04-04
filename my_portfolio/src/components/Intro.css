@@ -1,0 +1,27 @@
+.HelloWorld{
+    color: red;
+    font-size: 34px;
+    font-family: 'Coolvetica';
+
+    /* font-family: 'AldoTheApache'; */
+
+}
+
+.DavidHess{
+    font-size: 80px;
+    font-family: 'Coolvetica';
+
+    /* font-family: 'AldoTheApache'; */
+    /* border-bottom: 2px red dashed; */
+    margin-bottom: 20px;
+}
+
+.IntroBlurb{
+    color:gray;
+    font-family: 'Coolvetica';
+}
+
+.TorchLink{
+    color:rgb(15, 89, 201);
+    text-decoration: none;
+}
