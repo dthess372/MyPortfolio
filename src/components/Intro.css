@@ -1,27 +1,63 @@
-.HelloWorld{
-    color: red;
-    font-size: 34px;
-    font-family: 'Coolvetica';
-
-    /* font-family: 'AldoTheApache'; */
-
+.IntroContainer{
+    border: gray 1px inset;
+    margin: 50px;
+    height: calc(100vh - 100px);
+    background: linear-gradient(140deg, rgb(201, 201, 201), rgb(0, 0, 0));
 }
 
 .DavidHess{
-    font-size: 80px;
+    font-size: 2em;
     font-family: 'Coolvetica';
+    text-align: left;
+    color: rgb(63, 63, 63);
+    text-shadow:
+    2px 2px 2px #ff0000,
+    -0px -0px 0px #000;   
+    margin-inline: 25px;
+    /* border: black 1px solid; */
+    font-size: 30px;
+}
 
-    /* font-family: 'AldoTheApache'; */
-    /* border-bottom: 2px red dashed; */
-    margin-bottom: 20px;
+.Subtitle{
+    font-size: 1em;
+    font-family: 'Coolvetica';
+    text-align: left;
+    color: rgb(63, 63, 63);
+    margin-inline: 25px;
+    text-decoration: underline red;
+    /* border: black 1px solid; */
+
+}
+
+.IntroLinks{
+    font-size: 25px;
+    font-family: 'Coolvetica';
+    text-align: left;
+    color: rgb(63, 63, 63);
+    
+    padding-top: 25px;
+}
+
+.IntroLink{
+    margin-inline: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+    /* border: black 1px solid; */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.IntroLink:hover{
+    transform: translate(10px);
 }
 
 .IntroBlurb{
     color:gray;
+    /* font-size: 25px; */
     font-family: 'Coolvetica';
-}
-
-.TorchLink{
-    color:rgb(15, 89, 201);
-    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    right: 75px;
+    bottom: 75px;
+    /* border: green solid 1px; */
+    width: 200px;
 }

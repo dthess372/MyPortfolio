@@ -7,47 +7,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(23, 23, 23);
+  background-color: gray;
 }
-
-.bgOverlay{
-  z-index: -100;
-  background-color: rgba(23, 23, 23, 1);
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-}
-
-.bgGrid {
-  z-index: -90;
-  position: fixed;
-  left: -50vw;
-  top: -40vh;
-  height: 150vh;
-  animation: scroll 250s linear infinite;
-  background: url("https://w0.peakpx.com/wallpaper/92/917/HD-wallpaper-grids-red-55-abstract-thumbnail.jpg");
-  opacity: 25%;
-  filter: blur(1px) hue-rotate(90deg);  
-  transform: none;
-  -webkit-transform: perspective(50vh) rotateX(45deg);
-  width: 200vw;
-  
-  min-width: 360px;
-}
-
-@keyframes scroll {
-  100% {
-    background-position: 0px -100%;
-  }
-}
-
-
-/*Fallback if the operating system prefers reduced motion*/
-@media (prefers-reduced-motion) {
-  .wrapper {
-    animation: scroll 180s linear infinite;
-  }
-} 
